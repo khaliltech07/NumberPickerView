@@ -328,7 +328,7 @@ public class NumberPickerView extends View {
         mPaintText.setAntiAlias(true);
 
         mPaintText.setTextAlign(Align.RIGHT);
-
+        mPaintText.setTypeface(Typeface.createFromAsset(context.getAssets(),"fonts/myfont.ttf"));
         mPaintHint.setColor(mTextColorHint);
         mPaintHint.setAntiAlias(true);
         mPaintHint.setTextAlign(Align.CENTER);
